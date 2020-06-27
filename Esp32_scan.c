@@ -19,14 +19,14 @@ void setup()
 
 void loop()
 {
-    Serial.println("Initialize Scan");
+    Serial.println("Start scan");
     int n = WiFi.scanNetworks();
-    Serial.println("scan complete");
+    Serial.println("scan done");
     if (n == 0) {
-        Serial.println("no networks available");
+        Serial.println("no networks found");
     } else {
         Serial.print(n);
-        Serial.println(" networks available");
+        Serial.println(" networks found");
         for (int i = 0; i < n; ++i) {
             // Print SSID and RSSI for each network found
             Serial.print(i + 1);
