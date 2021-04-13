@@ -1,0 +1,27 @@
+Current Time: 2019/12/30 15:59:37
+Error Info: 对端口“COM12”的访问被拒绝。
+Error Source: System
+Error Stack: 在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 WINCC_TFMini.SensorDataAcquirer.Start() 位置 D:\Program Files\Visual Studio Projects\2015\WINCCTF\V1\WINCC_TFMini\SensorDataAcquirer.cs:行号 312
+Trigger Mode: Void WinIOError(Int32, System.String)
+
+Current Time: 2019/12/30 16:00:34
+Error Info: 对端口“COM12”的访问被拒绝。
+Error Source: System
+Error Stack: 在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 WINCC_TFMini.SensorDataAcquirer.Start() 位置 D:\Program Files\Visual Studio Projects\2015\WINCCTF\V1\WINCC_TFMini\SensorDataAcquirer.cs:行号 312
+Trigger Mode: Void WinIOError(Int32, System.String)
+
+Current Time: 2019/12/30 17:12:56
+Error Info: 对端口“COM13”的访问被拒绝。
+Error Source: System
+Error Stack: 在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 WINCC_TFMini.SensorDataAcquirer.Start() 位置 D:\Program Files\Visual Studio Projects\2015\WINCCTF\V1\WINCC_TFMini\SensorDataAcquirer.cs:行号 312
+Trigger Mode: Void WinIOError(Int32, System.String)
+

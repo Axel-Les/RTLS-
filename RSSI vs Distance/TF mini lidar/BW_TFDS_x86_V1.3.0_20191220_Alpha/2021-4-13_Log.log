@@ -1,0 +1,47 @@
+Current Time: 13-04-2021 21:30:08
+Error Info: A device attached to the system is not functioning.
+
+Error Source: System
+Error Stack: at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at WINCC_TFMini.SensorDataAcquirer.Start() in D:\Program Files\Visual Studio Projects\2015\WINCCTF\V1\WINCC_TFMini\SensorDataAcquirer.cs:line 312
+Trigger Mode: Void WinIOError(Int32, System.String)
+
+Current Time: 13-04-2021 21:30:12
+Error Info: A device attached to the system is not functioning.
+
+Error Source: System
+Error Stack: at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at WINCC_TFMini.SensorDataAcquirer.Start() in D:\Program Files\Visual Studio Projects\2015\WINCCTF\V1\WINCC_TFMini\SensorDataAcquirer.cs:line 312
+Trigger Mode: Void WinIOError(Int32, System.String)
+
+Current Time: 13-04-2021 21:31:14
+Error Info: Access to the port 'COM3' is denied.
+Error Source: System
+Error Stack: at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at WINCC_TFMini.SensorDataAcquirer.Start() in D:\Program Files\Visual Studio Projects\2015\WINCCTF\V1\WINCC_TFMini\SensorDataAcquirer.cs:line 312
+Trigger Mode: Void WinIOError(Int32, System.String)
+
+Current Time: 13-04-2021 21:31:18
+Error Info: Access to the port 'COM3' is denied.
+Error Source: System
+Error Stack: at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at WINCC_TFMini.SensorDataAcquirer.Start() in D:\Program Files\Visual Studio Projects\2015\WINCCTF\V1\WINCC_TFMini\SensorDataAcquirer.cs:line 312
+Trigger Mode: Void WinIOError(Int32, System.String)
+
+Current Time: 13-04-2021 21:32:24
+Error Info: Access to the port 'COM3' is denied.
+Error Source: System
+Error Stack: at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at WINCC_TFMini.SensorDataAcquirer.Start() in D:\Program Files\Visual Studio Projects\2015\WINCCTF\V1\WINCC_TFMini\SensorDataAcquirer.cs:line 312
+Trigger Mode: Void WinIOError(Int32, System.String)
+
